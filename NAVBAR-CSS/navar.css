@@ -1,0 +1,195 @@
+footer {
+      margin-left: 0px;
+      margin-right: 0;
+      text-align: center;
+      padding: 20px;
+      
+    }
+    
+    footer a{
+      text-decoration: none;
+    }
+
+    footer p {
+      margin-bottom: 15px;
+      font-size: 16px;
+      letter-spacing: 1px;
+    }
+
+    .social-links img {
+      width: 25px;
+      height: 25px;
+      margin: 0 10px;
+      transition: transform 0.3s;
+    }
+
+    
+    
+    
+    .navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+
+  /* navfade */
+  background: linear-gradient(to bottom, #0A7075, rgba(0,0,0,0));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  padding-left: 1px;
+}
+
+.navbar a img {
+  width: 25px;
+  height: 25px;
+  margin: 0 5px;
+  transition: transform 0.3s;
+  vertical-align: middle;
+}
+
+.navbar a img:hover {
+  transform: scale(1.2);
+}
+
+/* benz name top nav*/
+.navbar .login-btn {
+  margin-left: 0px;
+  margin-right: 50px;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+ 
+}
+
+
+
+
+
+
+body.menu-open .site-title {
+    opacity: 0;
+    transform: translateX(-10px);
+    pointer-events: none;
+  }
+
+  .hamburger {
+    
+    cursor: pointer;
+    border: none;
+    background: none;
+    padding: 0;
+    margin-left: 5px;
+    
+  }
+  
+  .hamburger img:hover{
+    transform: scale(1.2);
+    
+  }
+  
+  
+  .hamburger img {
+    transition: transform 0.3s;
+    vertical-align: middle;
+    width: 24px;
+    height: 24px;
+  }
+
+  .side-menu {
+    
+    position: fixed;
+    top: 0;
+    left: -260px;
+    width: 260px;
+    height: 100%;
+    background: linear-gradient(to bottom, #0A7075, #034C36, #003332);
+    padding-top: 70px;
+    box-shadow: 4px 0 12px rgba(0,0,0,0.6);
+    transition: left 0.28s ease;
+    z-index: 1300;
+  }
+  .side-menu.active { left: 0; }
+  .side-menu a {
+    
+    display: block;
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+
+  .overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.45);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.28s ease, visibility 0s linear 0.28s;
+    z-index: 1250;
+  }
+  body.menu-open .overlay {
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0s;
+  }
+
+/*border*/
+.bordern{
+  margin-top: 10px;
+  margin-left: 25px;
+  margin-right: 30px;
+  box-shadow:0px 0px 5px white;
+  padding-left: 7px;
+  padding-top: 10px;
+  border-radius: 8px;
+  
+}
+.side-menu img{
+  width: 25px;
+  height: 25px;
+}
+
+.bordern p{
+  margin-left: 20px;
+  margin-top: 2px;
+}
+
+.bordern:hover{
+  transform: scale(1.1);
+}
+
+.bordern a{
+  transition: transform 0.3s;
+   vertical-align: middle;
+  padding-left: 0px;
+  padding-top: 0px;
+  margin-left: 2px;
+  margin-top: 2px;
+}
+
+/* Remove clicked */
+body, button {
+  outline: none;
+  -webkit-tap-highlight-color: transparent; /* For mobile browsers */
+}
+
+body:focus, a:active,
+button:focus, button:active {
+  background: none !important; 
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+  .example {
+    display: flex;
+    
+  }
+  
+  .acc{
+    
+margin-top: 0;
+    
+  }
+  

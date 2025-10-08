@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BENZZ</title>
+
+  <link rel="stylesheet" href="places.css">
+  
+
+    <link rel="stylesheet" href="../NAVBAR-CSS/navar.css">
+  
+  
+  
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  
+
+  
+  
+  
+  
+  
+  
+  
+ <nav class="navbar">
+   <a href="../LOGIN/login.html" class="login-btn">BENZ.WEB</a>
+   <a href="../HOME/home.html">
+     <img src="../IMAGES/home.png">
+   </a>
+   <a href="../PLACES/places.html">
+     <img src="../IMAGES/location.png">
+   </a>
+   <a href="../DELICACIES/delicacies.html">
+     <img src="../IMAGES/food.png">
+   </a>
+   <div class="hamburger" aria-label="Toggle menu" onclick="toggleMenu()">
+     <img src="../IMAGES/3lines.png">
+   </div>
+   
+ </nav>
+ 
+
+   <!--ikaduha nav-->
+ <nav id="sideMenu" class="side-menu" aria-hidden="true">
+   
+<div class="bordern" >
+  <a href="../HOME/home.html">
+    <img src="../IMAGES/home.png" alt="" />
+      HOME</a>
+</div>
+      
+ <div class="bordern">
+  <a href="../PLACES/places.html">
+    <img src="../IMAGES/location.png">
+PLACES</a>
+   </div>  
+   
+   <div class="bordern">
+   <a href="../DELICACIES/delicacies.html">
+     <img src="../IMAGES/Food.png">
+     DELICACIES</a>
+   </div>
+     
+     
+   <div class="bordern">
+   <a href="../LOGIN/login.html">
+     <img src="../IMAGES/profile.png">
+     LOGIN</a>
+   </div>
+
+      <!-- bottom 
+   <div class="example">
+     <img src="Food.png">
+     <p class="acc"> ako wapo</p>
+   </div>
+   -->
+   
+   
+        <!--
+   </tag>
+   <div class="bordern">
+     <a href="../DELICACIES/delicacies.html">
+     <img  src="Food.png">
+     <p>DELICACIES</p>
+    </a>
+   </div> 
+   -->
+   
+   
+   
+   
+ </nav>
+ 
+ <div id="overlay" class="overlay" onclick="toggleMenu()"></div>
+ 
+ 
+ <script>
+   function toggleMenu() {
+     const side = document.getElementById('sideMenu');
+     const isActive = side.classList.toggle('active');
+     document.body.classList.toggle('menu-open', isActive);
+     side.setAttribute('aria-hidden', !isActive);
+   }
+ </script>
+ 
+ 
+ 
+   <!--Image-->
+       <div class="top-image">
+      
+    <img src="top.png">
+  </div>
+  
+  <div class="title">
+    - BEST SPOT TO VISIT -
+  </div>
+  
+      <div class="top-image">
+    <img src="pulacan.png">
+    <img src="plazaluz.png">
+    <img src="unitypark.png">
+    
+  </div>
+  
+ 
+ 
+    <footer>
+    <p>Benxzz all right reserved</p>
+    <div class="social-links">
+      <a href="https://t.me/Hanzohez" target="_blank">
+        <img src="../IMAGES/telegram.png">
+      </a>
+      <a href="https://www.facebook.com/share/1GCorvs9de/" target="_blank">
+        <img src="../IMAGES/facebook.png">
+      </a>
+      <a href="https://www.instagram.com/luvrbnz_?igsh=MTRwaHgxdnl5bHM1Yg==" target="_blank">
+        <img src="../IMAGES/instagram.png">
+      </a>
+      <a href="https://wa.me/qr/MXUDJ4YU55LMD1" target="_blank">
+        <img src="../IMAGES/Whatsapp.png">
+      </a>
+    </div>
+  </footer>  
+  
+  
+  
+  
+  
+  
+  
+</body>
+
+</html>

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="../NAVBAR-CSS/navar.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
+<head>
+  <title>BENZZ</title>
+</head>
+
+<body>
+  <!-- nabar ni sya -->
+  <!-- Navigation with Logos and Log In -->
+  
+  
+  
+  
+  
+  
+ <nav class="navbar">
+   <a href="../LOGIN/login.html" class="login-btn">BENZ.WEB</a>
+   <a href="../HOME/home.html">
+     <img src="../IMAGES/home.png">
+   </a>
+   <a href="../PLACES/places.html">
+     <img src="../IMAGES/location.png">
+   </a>
+   <a href="../DELICACIES/delicacies.html">
+     <img src="../IMAGES/food.png">
+   </a>
+   <div class="hamburger" aria-label="Toggle menu" onclick="toggleMenu()">
+     <img src="../IMAGES/3lines.png">
+   </div>
+   
+ </nav>
+ 
+
+   <!--ikaduha nav-->
+ <nav id="sideMenu" class="side-menu" aria-hidden="true">
+   
+<div class="bordern" >
+  <a href="../HOME/home.html">
+    <img src="../IMAGES/home.png" alt="" />
+      HOME</a>
+</div>
+      
+ <div class="bordern">
+  <a href="../PLACES/places.html">
+    <img src="../IMAGES/location.png">
+PLACES</a>
+   </div>  
+   
+   <div class="bordern">
+   <a href="../DELICACIES/delicacies.html">
+     <img src="../IMAGES/Food.png">
+     DELICACIES</a>
+   </div>
+     
+     
+   <div class="bordern">
+   <a href="../LOGIN/login.html">
+     <img src="../IMAGES/profile.png">
+     LOGIN</a>
+   </div>
+
+   
+     <!--bottom
+   
+   <div class="example">
+     <img src="Food.png">
+     <p class="acc"> ako wapo</p>
+   </div>
+   -->
+   
+   
+        <!--
+   </tag>
+   <div class="bordern">
+     <a href="../DELICACIES/delicacies.html">
+     <img  src="Food.png">
+     <p>DELICACIES</p>
+    </a>
+   </div> 
+   -->
+   
+   
+   
+   
+ </nav>
+ 
+ <div id="overlay" class="overlay" onclick="toggleMenu()"></div>
+ 
+ 
+ <script>
+   function toggleMenu() {
+     const side = document.getElementById('sideMenu');
+     const isActive = side.classList.toggle('active');
+     document.body.classList.toggle('menu-open', isActive);
+     side.setAttribute('aria-hidden', !isActive);
+   }
+ </script>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  <div class="top-image">
+    <img src="delsur.png">
+  </div>
+  
+  <div class="title">
+    - VISIT ZAMBOANGA DEL SUR -
+  </div>
+  
+  <div class="top-image">
+    <img src="places.png">
+  </div>
+  <h1>A Land of Culture, Beauty, and Hospitality.</h1>
+  <div class="des">
+    <p style="line-height: 1.8;">
+      Zamboanga del Sur is a province in the Zamboanga Peninsula of Mindanao, Philippines.It is known for its rich culture, breathtaking landscapes, and warm hospitality. With Pagadian City as its capital, the province is home to scenic spots, colorful traditions, and unique delicacies that reflect the blend of Subanen, Moro, and Christian influences.
+    </p>
+  </div>
+  
+  <p class="headingbutp">
+    Discover the 26 Municipalities of
+  </p>
+  <p class="para">Zamboanga del Sur.</p>
+  
+  <div class="municipality">
+    
+    
+    <ul>
+      <li><a href="../PLACES/places.html">Pagadian City</strong></a></li>
+      <li><a href="https://www.google.com">Aurora</a></li>
+      <li><a href="https://www.google.com">Dumingag</a></li>
+      <li><a href="https://www.google.com">Josefina</a></li>
+      <li><a href="https://www.google.com">Labangan</a></li>
+      <li><a href="https://www.google.com">Mahayag</a></li>
+      <li><a href="https://www.google.com">Midsalip</a></li>
+      <li><a href="https://www.google.com">Ramon Magsaysay</a></li>
+      <li><a href="https://www.google.com">Sominot</a></li>
+      <li><a href="https://www.google.com">Tambulig</a></li>
+      <li><a href="https://www.google.com">Tukuran</a></li>
+      <li><a href="https://www.google.com">Bayog</a></li>
+      <li><a href="https://www.google.com">Dimataling</a></li>
+      <li><a href="https://www.google.com">Dinas</a></li>
+      <li><a href="https://www.google.com">Dumalinao</a></li>
+      <li><a href="https://www.google.com">Guipos</a></li>
+      <li><a href="https://www.google.com">Kumalarang</a></li>
+      <li><a href="https://www.google.com">Lakewood</a></li>
+      <li><a href="https://www.google.com">Lapuyan</a></li>
+      <li><a href="https://www.google.com">Margosatubig</a></li>
+      <li><a href="https://www.google.com">Pitogo</a></li>
+      <li><a href="https://www.google.com">San Miguel</a></li>
+      <li><a href="https://www.google.com">San Pablo</a></li>
+      <li><a href="https://www.google.com">Tabina</a></li>
+      <li><a href="https://www.google.com">Tigbao</a></li>
+      <li><a href="https://www.google.com">Vincenzo A. Sagun</a></li>
+    </ul>
+  </div>
+  
+  <footer>
+    <p>Benxzz all right reserved</p>
+    <div class="social-links">
+      <a href="https://t.me/Hanzohez" target="_blank">
+        <img src="telegram.png">
+      </a>
+      <a href="https://www.facebook.com/share/1GCorvs9de/" target="_blank">
+        <img src="facebook.png">
+      </a>
+      <a href="https://www.instagram.com/luvrbnz_?igsh=MTRwaHgxdnl5bHM1Yg==" target="_blank">
+        <img src="instagram.png" alt="Instagram">
+      </a>
+      <a href="https://wa.me/qr/MXUDJ4YU55LMD1" target="_blank">
+        <img src="Whatsapp.png" alt="WhatsApp">
+      </a>
+    </div>
+  </footer>
+</body>
+
+</html>
